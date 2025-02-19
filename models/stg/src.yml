@@ -1,0 +1,8 @@
+#src.yml
+version:  2
+sources:
+  - name: src
+    database: studious-bit-400118
+    schema: g_dbt_schema_src
+    tables:
+      - name: orders
